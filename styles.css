@@ -16,7 +16,7 @@ body {
 }
 
 /* --- Header & Navigation --- */
-header {
+.header {
     background: #50b3a2;
     color: white;
     padding-top: 30px;
