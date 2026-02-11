@@ -3,18 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Site</title>
+    <link rel="icon" type="image/svg+xml" href="images/Test.png" />
+    <title>Test</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Main heading of your website -->
-    <h1>This is for testing!</h1>
-    
-    <!-- A paragraph describing your site -->
-    <p>Testing.</p>
+    <!-- <button class="menu-toggle" onclick="selectTabCtr()">☰ Menu</button> -->
 
-    <!-- Example of a link -->
-    <a href="https://docs.github.com" target="_blank">Learn more about GitHub Pages</a>
+    <div class="header" id="header">
+      <nav>
+          <a href="#home">Home</a>
+          <a href="#activities">Activities</a>
+          <a href="#materials">Source Code/Data</a>
+          <a href="#publications">Publications</a>
+          <a href="#organizations">Organizations</a>
+      </nav>
+    </div>
+
+    <div class="main">
+	  <!-- Home -->
+      <section id="home" class="home">
+        <img src="images/Test.png" alt="Test" class="banner_image">
+        <div class="banner">
+          <p style="font-size: 24px; font-variant: small-caps">This is for testing</p>
+        </div>
+        <div class="content">
+        </div>
+      </section>
+		
+      
+	  <!-- Activities -->
+      <section id="activities">
+        <div class="content">
+          <h2>Activities / Events</h2>
+		</div>
+      </section>
+
+	  <!-- Source Code/Data -->
+      <section id="materials">
+        <div class="content">
+        <h2>Source Code/Data</h2>
+        </div>
+      </section>
+
+	  <!-- Publications -->
+      <section id="publications">
+        <div class="content">
+          <h2> Publications </h2>
+      </div>
+      </section>
+  
+	  <!-- Organizations -->
+      <section id="organizations" class="org_banner_container">
+        <div class="orgs">
+          <h2> Participating Organizations </h2>
+        </div>
+      </section>
+  
+      <div class="footer">
+          <p>&copy; 2026 Test</p>
+      </div>
+    </div>
+
+<!--
+  <script>
+    function selectTabCtr() {
+      var tabCtr = document.querySelector(".header nav");
+      if (tabCtr.style.display === "block" || tabCtr.style.display === "") {
+        tabCtr.style.display = "none";
+      } else {
+        tabCtr.style.display = "block";
+      }
+    }
+  </script>
+-->
 
 </body>
 </html>
