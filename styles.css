@@ -53,6 +53,7 @@ body {
 .header nav {
     float: right;
     margin-top: 10px;
+    justify-content: center;
 }
 
 /* --- Main Content Area --- */
