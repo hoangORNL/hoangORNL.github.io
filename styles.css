@@ -33,6 +33,8 @@ body {
     border-bottom: #e84949 3px solid;
     display: flex;
     justify-content: center;
+    flex-direction: row;  
+    position: sticky;
 }
 
 .header a {
